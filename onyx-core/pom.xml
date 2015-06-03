@@ -205,6 +205,11 @@
     <!-- Magma dependencies -->
     <dependency>
       <groupId>org.obiba.magma</groupId>
+      <artifactId>magma-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.obiba.magma</groupId>
       <artifactId>magma-beans</artifactId>
     </dependency>
 
@@ -242,6 +247,12 @@
       <groupId>org.obiba.wicket</groupId>
       <artifactId>wicket-nanogong</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>net.sf.ehcache</groupId>
+      <artifactId>ehcache</artifactId>
+    </dependency>
+
   </dependencies>
 
   <build>
