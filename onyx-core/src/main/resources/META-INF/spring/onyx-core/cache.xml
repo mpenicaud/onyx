@@ -7,7 +7,7 @@
   </bean>
 
   <bean id="ehcache" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
-    <property name="configLocation" value="classpath:/META-INF/ehcache.xml"/>
+    <property name="configLocation" value="${org.obiba.onyx.config.path}/ehcache.xml"/>
     <property name="shared" value="true"/>
   </bean>
 

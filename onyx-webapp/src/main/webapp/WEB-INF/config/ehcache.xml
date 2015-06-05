@@ -11,12 +11,4 @@
       overflowToDisk="true"
       diskPersistent="false"/>
 
-  <cache name="magma-table-entities"
-      maxElementsInMemory="1"
-      eternal="true"
-      timeToLiveSeconds="0"
-      timeToIdleSeconds="0"
-      overflowToDisk="true"
-      diskPersistent="true"/>
-
 </ehcache>
